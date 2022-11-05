@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@700&family=Montserrat:wght@100&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: white;
+}
+
+nav {
+    background-color: rgb(36, 13, 13);
+    height: 100px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-top: 25px;
+
+}
+
+
+
+nav ul li a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+nav ul li a:hover {
+    color: #55AEAE;
+}
+
+nav ul li {
+    margin: 10px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 10px;
+    top: 20px
+}
+
+.btn1 {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border: 2px solid #29d9d5;
+    border-radius: 30px;
+    padding: 2px;
+    font-family: montserrat;
+    font-size: 30px;
+    color: #29d9d5;
+    transition: 0.7s;
+    font-weight: 900;
+}
+
+.btn1:hover {
+    background-color: #29d9d5;
+    color: white;
+}
+
+.para {
+    background-color: #EFE1E2;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.imagegrid {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.card img {
+    border-radius: 20px;
+    margin: 10px
+}
+
+.btn2 {
+    position: static !important;
+    text-align: center;
+}
+
+
+
+
+.outtercont1 {
+    margin-top: 10px;
+    background-image: url("back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main {
+    background-color: black;
+    color: white;
+}
+
+.content01 {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.first {
+    width: 30%;
+}
+
+.icons {
+    border-radius: 50%;
+    padding: 2px;
+    border: 2px solid #29d9d5;
+    color: #29d9d5;
+    transition: 0.5s;
+}
+
+.icons:hover {
+    color: white;
+    background-color: #29d9d5;
+}
